@@ -22,7 +22,7 @@ class Human
 
 	def drink!
 		@alertness = @alertness + 0.33
-		@coffee.slurp!
+		@coffee.sip!
 	end
 
 	

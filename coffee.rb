@@ -1,19 +1,19 @@
 class Coffee
 	def initialize(coffee)
 		@coffee = coffee
-		@sips = 3
+		@take_sip = 3
 	end
 
 	def full?
-		@sips ==3
+		@take_sip ==3
 	end
 
-	def slurp!
-		@sips -= 1
+	def sip!
+		@take_sip -= 1
 	end
 
 	def empty?
-		@sips.zero?
+		@take_sip.zero?
 	end
 
 
